@@ -1,0 +1,114 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #e2e5de;
+}
+
+.login-form {
+    background: white;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-form h1 {
+    margin-bottom: 1em;
+}
+
+.input-group {
+    margin-bottom: 1em;
+    position: relative;
+}
+
+.input-group input {
+    padding: 0.75em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: calc(100% - 3em);
+    /* Adjust width based on padding and icon width */
+    font-size: 2.1em;
+    /* Increase font size */
+}
+
+.input-group .icon {
+    position: absolute;
+    margin: 0.75em;
+}
+
+button {
+    padding: 1em 2em;
+    color: white;
+    background-color: #5cb85c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    /* Increase font size */
+}
+
+.illustration img {
+    width: 600px;
+    /* Increase size of the chef photo */
+    height: auto;
+}
+
+.input-group input,
+.input-group textarea {
+    /* Apply the same styles to both inputs and textareas */
+    padding: 0.75em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: calc(100% - 3em);
+    /* Adjust width based on padding */
+    font-size: 1em;
+    /* Adjusted for consistency */
+    box-sizing: border-box;
+    /* Ensures padding is included in width */
+}
+
+.input-group textarea {
+    height: 100px;
+    /* Set a fixed height for the textarea */
+    resize: none;
+    /* Optional: prevent resizing */
+}
+
+.login-form p {
+    margin-top: 15px;
+    font-size: 10px;
+}
+
+.login-form p a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.login-form p a:hover {
+    text-decoration: underline;
+}
+
+.login-form .input-group a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.login-form .input-group a:hover {
+    text-decoration: underline;
+}
+
+.link-style {
+    text-decoration: none;
+    color: blue;
+}

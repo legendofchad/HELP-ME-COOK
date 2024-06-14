@@ -1,0 +1,136 @@
+.header__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.profile__container {
+    display: flex;
+    width: 80%;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.left__col {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+.img__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile__image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ddd;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.biodata {
+    margin-bottom: 10px;
+}
+
+#editButton {
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.right__col {
+    flex: 2;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    /* Makes the text bold */
+    font-size: 1.5em;
+    /* Increases the text size */
+}
+
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: start;
+}
+
+.posts img {
+    width: 30%;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.post-card {
+    width: 200px;
+    /* Fixed width for each card */
+    height: 250px;
+    /* Fixed height to maintain square shape with room for title */
+    display: flex;
+    flex-direction: column;
+    /* Ensures the image and title stack vertically */
+    justify-content: space-between;
+    /* Space between the image and title */
+    align-items: center;
+    /* Center the content */
+    overflow: hidden;
+    /* Prevents any part of the image from overflowing the card */
+    background-color: transparent;
+    /* Make the card background transparent */
+    border: none;
+    /* Remove border */
+    box-shadow: none;
+    /* Remove shadow */
+    padding: 10px;
+    /* Padding inside the card */
+    box-sizing: border-box;
+    /* Ensures padding is included in the width and height calculations */
+}
+
+.post-card img {
+    width: 100%;
+    /* Make the image take the full width of the card */
+    height: auto;
+    /* Height scales with the width to maintain aspect ratio */
+    object-fit: cover;
+    /* Ensures the image covers the area without distorting aspect ratio */
+    flex-grow: 1;
+    /* Allow the image to grow to fill available space */
+}
+
+.post-card h3 {
+    margin: 10px 0 0 0;
+    /* Space above the title */
+    text-align: center;
+    /* Center the text */
+    font-size: 1.2em;
+    /* Font size for the title */
+}
